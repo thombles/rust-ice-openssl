@@ -1,0 +1,8 @@
+[package]
+name = "rust-ice-openssl"
+version = "0.1.0"
+authors = ["Thomas Karpiniec <tom.karpiniec@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
